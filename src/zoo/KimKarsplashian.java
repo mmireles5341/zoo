@@ -5,79 +5,36 @@ package zoo;
  * @author mmireles5341
  */
 class KimKarsplashian extends CaitswimJenner {
-    private String Color;
-    private boolean LivesinWater = true;
-    private String Diet;
-    private boolean BreatheAir = true;
+    private boolean Respected = true;
+    private boolean Attention = true;
+    private boolean ReallyMoody = true;
     
     
     
-    public static void BreatheAir()
+    public static void Respected()
     {
-        System.out.println("I'm a dolphin and I breathe air!");
+        System.out.println("I'm the most respected aquatic animal IN THIS SEA!! Don't mess with me ughh");
     }
     
-    public void Color()
+    public void Attention()
     {
-        System.out.println("MY COLOR IS " + getColor());
+        System.out.println("I don't like being ");
     }
-    public void Diet()
+    public void ReallyMoody()
     { 
         System.out.println("I eat " + getDiet());
     }  
     
-    public void Play(){
+    public void Cries(){
         System.out.println("I love to play!!!!!! WOOOOOOOOOOO!!!!");
     }
     
-    public void Party(){
+    public void Sleeps(){
         System.out.println("I love to PARTAYYY! *dolphin noise*");
     }
     
-    public void Bowling(){
+    public void WaterTemp(){
         System.out.println("I use the 4lb ball when I go bowling!! *dolphin noise*");
-    }
-
-    /**
-     * @return the Color
-     */
-    public String getColor() {
-        return Color;
-    }
-
-    /**
-     * @param Color the Color to set
-     */
-    public void setColor(String Color) {
-        this.Color = Color;
-    }
-
-    /**
-     * @return the LivesinWater
-     */
-    public boolean isLivesinWater() {
-        return LivesinWater;
-    }
-
-    /**
-     * @return the Diet
-     */
-    public String getDiet() {
-        return Diet;
-    }
-
-    /**
-     * @param Diet the Diet to set
-     */
-    public void setDiet(String Diet) {
-        this.Diet = Diet;
-    }
-
-    /**
-     * @return the BreatheAir
-     */
-    public boolean isBreatheAir() {
-        return BreatheAir;
     }
 
     
