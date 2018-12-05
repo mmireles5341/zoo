@@ -5,79 +5,37 @@ package zoo;
  * @author mmireles5341
  */
 class LaFlame {
-    private String Color;
-    private boolean LivesinWater = true;
-    private String Diet;
-    private boolean BreatheAir = true;
+    private String Color = "red, yellow, and/or sometimes orange";
+    private boolean Carnivore = true;
+    private String EyeColor = "warm eye color";
     
     
     
-    public static void BreatheAir()
+    public static void Carnivore()
     {
-        System.out.println("I'm a dolphin and I breathe air!");
+        System.out.println("All I eat is meat because I'm a carnivore and everyone that eats leaves is lameee");
     }
     
     public void Color()
     {
-        System.out.println("MY COLOR IS " + getColor());
+        System.out.println("MY COLOR IS " + Color + " if I'm feelin spicy");
     }
-    public void Diet()
+    public void EyeColor()
     { 
-        System.out.println("I eat " + getDiet());
+        System.out.println("My eyes have a " + EyeColor + " just like my fur... wow isn't that just NEAT");
+               
     }  
     
-    public void Play(){
-        System.out.println("I love to play!!!!!! WOOOOOOOOOOO!!!!");
+    public void Burn(){
+        System.out.println("I have to burn everything before I eat it so I don't get heartBURN HAHA");
     }
     
-    public void Party(){
-        System.out.println("I love to PARTAYYY! *dolphin noise*");
+    public void Attack(){
+        System.out.println("My friends and I are super cool. We like to attack our enemies in groups...NO MAN LEFT BEHIND");
     }
     
-    public void Bowling(){
-        System.out.println("I use the 4lb ball when I go bowling!! *dolphin noise*");
-    }
-
-    /**
-     * @return the Color
-     */
-    public String getColor() {
-        return Color;
-    }
-
-    /**
-     * @param Color the Color to set
-     */
-    public void setColor(String Color) {
-        this.Color = Color;
-    }
-
-    /**
-     * @return the LivesinWater
-     */
-    public boolean isLivesinWater() {
-        return LivesinWater;
-    }
-
-    /**
-     * @return the Diet
-     */
-    public String getDiet() {
-        return Diet;
-    }
-
-    /**
-     * @param Diet the Diet to set
-     */
-    public void setDiet(String Diet) {
-        this.Diet = Diet;
-    }
-
-    /**
-     * @return the BreatheAir
-     */
-    public boolean isBreatheAir() {
-        return BreatheAir;
+    public void ThermalImaging(){
+        System.out.println("Hunting at night is kinda hard...oh wait, I have my handy dandy thermal imaging lenses to help me out!!");
     }
 
     
