@@ -5,29 +5,27 @@ package zoo;
  * @author mmireles5341
  */
 class TinderMalone extends LaFlame {
-    private String Color;
-    private boolean LivesinWater = true;
-    private String Diet;
-    private boolean BreatheAir = true;
+    private String Color = "I got that red fur";
+    private boolean StartFire = true;
+    private boolean Small = true;
     
-    
-    
-    public static void BreatheAir()
-    {
-        System.out.println("I'm a dolphin and I breathe air!");
-    }
-    
+       
     public void Color()
     {
-        System.out.println("MY COLOR IS " + getColor());
+        System.out.println(Color);
     }
-    public void Diet()
+    
+    public void StartFire()
+    {
+        System.out.println("I start forest fires when I'm bored but don't worryyy no one gets hurt pshhhh");
+    }
+    public void Small()
     { 
-        System.out.println("I eat " + getDiet());
+        System.out.println("So what I'm on the small side...THE WEATHER IS FINE DOWN HERE THANKS FOR ASKING");
     }  
     
-    public void Play(){
-        System.out.println("I love to play!!!!!! WOOOOOOOOOOO!!!!");
+    public void SpitFire(){
+        System.out.println("You know I'm angry when I'm spitting straight fire so stand back everybody WATCH OUT");
     }
     
     public void Party(){
@@ -36,48 +34,6 @@ class TinderMalone extends LaFlame {
     
     public void Bowling(){
         System.out.println("I use the 4lb ball when I go bowling!! *dolphin noise*");
-    }
-
-    /**
-     * @return the Color
-     */
-    public String getColor() {
-        return Color;
-    }
-
-    /**
-     * @param Color the Color to set
-     */
-    public void setColor(String Color) {
-        this.Color = Color;
-    }
-
-    /**
-     * @return the LivesinWater
-     */
-    public boolean isLivesinWater() {
-        return LivesinWater;
-    }
-
-    /**
-     * @return the Diet
-     */
-    public String getDiet() {
-        return Diet;
-    }
-
-    /**
-     * @param Diet the Diet to set
-     */
-    public void setDiet(String Diet) {
-        this.Diet = Diet;
-    }
-
-    /**
-     * @return the BreatheAir
-     */
-    public boolean isBreatheAir() {
-        return BreatheAir;
     }
 
     
