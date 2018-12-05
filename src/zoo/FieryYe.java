@@ -5,80 +5,36 @@ package zoo;
  * @author mmireles5341
  */
 class FieryYe extends LaFlame {
-    private String Color;
-    private boolean LivesinWater = true;
-    private String Diet;
-    private boolean BreatheAir = true;
+    private boolean HotHead = true;
+    private String EyeColor = "orange";
+    private boolean UltralightBeams = true;
     
     
     
-    public static void BreatheAir()
+    public static void HotHead()
     {
-        System.out.println("I'm a dolphin and I breathe air!");
+        System.out.println("The other zoo animals call me a hothead but I don't really see it...Hey you, YEAH YOU! WHATCHA LOOKIN AT HUH");
     }
     
-    public void Color()
+    public void EyeColor()
     {
-        System.out.println("MY COLOR IS " + getColor());
+        System.out.println("MY EYECOLOR IS " + EyeColor + " and it's way cooler than yours I bet");
     }
-    public void Diet()
+    public void UltralightBeams()
     { 
-        System.out.println("I eat " + getDiet());
+        System.out.println("I've got SICK ultralight beams on my back to let all my friends know where the PARTY IS WOOOO");
     }  
     
-    public void Play(){
-        System.out.println("I love to play!!!!!! WOOOOOOOOOOO!!!!");
+    public void Food(){
+        System.out.println("I only eat a decent meal every other year because if you do it too often it's just not as special ya know? Like Christmas aww");
     }
     
-    public void Party(){
-        System.out.println("I love to PARTAYYY! *dolphin noise*");
+    public void Attention(){
+        System.out.println("hey friends...please pay attention to me I promise I'm interesting... PAY ATTENTION TO ME NOW IM NEEDY");
     }
     
-    public void Bowling(){
-        System.out.println("I use the 4lb ball when I go bowling!! *dolphin noise*");
+    public void WaterCreature(){
+        System.out.println("Yeah I know I'm in the Fire Nation but being around the Water Tribe is just so relaxingggg. They're so nice and sweet wow");
     }
 
-    /**
-     * @return the Color
-     */
-    public String getColor() {
-        return Color;
-    }
-
-    /**
-     * @param Color the Color to set
-     */
-    public void setColor(String Color) {
-        this.Color = Color;
-    }
-
-    /**
-     * @return the LivesinWater
-     */
-    public boolean isLivesinWater() {
-        return LivesinWater;
-    }
-
-    /**
-     * @return the Diet
-     */
-    public String getDiet() {
-        return Diet;
-    }
-
-    /**
-     * @param Diet the Diet to set
-     */
-    public void setDiet(String Diet) {
-        this.Diet = Diet;
-    }
-
-    /**
-     * @return the BreatheAir
-     */
-    public boolean isBreatheAir() {
-        return BreatheAir;
-    }
-
-    
 }
