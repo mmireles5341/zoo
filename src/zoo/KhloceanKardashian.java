@@ -5,80 +5,38 @@ package zoo;
  * @author mmireles5341
  */
 class KhloceanKardashian extends CaitswimJenner {
-    private String Color;
-    private boolean LivesinWater = true;
-    private String Diet;
-    private boolean BreatheAir = true;
+    private String Tall = "I'm the tallest in the sea and being the tallest means I can bully everyone around so listen up losers the queen bee IS SPEAKING TO YOU";
+    private boolean FakeBlonde = true;
+    private String Tsunami = "I'm the OG when it comes to making tsunamis so you BEST not get on my bad side!! teehee";
     
     
     
-    public static void BreatheAir()
+    public void Tall()
     {
-        System.out.println("I'm a dolphin and I breathe air!");
+        System.out.println(Tall);
     }
     
-    public void Color()
+    public void FakeBlonde()
     {
-        System.out.println("MY COLOR IS " + getColor());
+        System.out.println("I'm a Fake Blonde and everyone knows it but donut be fooled...I have my fair share of blonde moments");
     }
-    public void Diet()
+    public void Tsunami()
     { 
-        System.out.println("I eat " + getDiet());
+        System.out.println(Tsunami);
     }  
     
-    public void Play(){
-        System.out.println("I love to play!!!!!! WOOOOOOOOOOO!!!!");
+    public void Brag(){
+        System.out.println("I don't bragggg about my healthy diet...but I basically eat ice and drink water and lose 50 pounds wow I'm so skinny go ahead and be jealousn now");
     }
     
-    public void Party(){
-        System.out.println("I love to PARTAYYY! *dolphin noise*");
+    public void Clothes(){
+        System.out.println("I drop clothing lines that are way overpriced and totally not worth it but with that being said...look at all this money I'm making!!");
     }
     
-    public void Bowling(){
-        System.out.println("I use the 4lb ball when I go bowling!! *dolphin noise*");
+    public void Swim(){
+        System.out.println("I swim through this ocean with attitude because I'm so cool and popular don't even look at me if you're not cool okay? okay.");
     }
 
-    /**
-     * @return the Color
-     */
-    public String getColor() {
-        return Color;
-    }
-
-    /**
-     * @param Color the Color to set
-     */
-    public void setColor(String Color) {
-        this.Color = Color;
-    }
-
-    /**
-     * @return the LivesinWater
-     */
-    public boolean isLivesinWater() {
-        return LivesinWater;
-    }
-
-    /**
-     * @return the Diet
-     */
-    public String getDiet() {
-        return Diet;
-    }
-
-    /**
-     * @param Diet the Diet to set
-     */
-    public void setDiet(String Diet) {
-        this.Diet = Diet;
-    }
-
-    /**
-     * @return the BreatheAir
-     */
-    public boolean isBreatheAir() {
-        return BreatheAir;
-    }
 
     
 }
