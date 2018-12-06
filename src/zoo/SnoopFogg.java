@@ -5,79 +5,36 @@ package zoo;
  * @author mmireles5341
  */
 class SnoopFogg {
-    private String Color;
-    private boolean LivesinWater = true;
-    private String Diet;
-    private boolean BreatheAir = true;
+    private String EyeColor = "We've got white eyes dude, as white as those clouds up there...WHITER THAN THE MOON DUDE";
+    private boolean Fly = true;
+    private boolean Tails = true;
     
     
     
-    public static void BreatheAir()
+    public void EyeColor()
     {
-        System.out.println("I'm a dolphin and I breathe air!");
+        System.out.println(EyeColor);
     }
     
-    public void Color()
+    public void Fly()
     {
-        System.out.println("MY COLOR IS " + getColor());
+        System.out.println("We can fly soooo high...so so high...hm we're the highest flying animals in the zoo");
     }
-    public void Diet()
+    public void Tails()
     { 
-        System.out.println("I eat " + getDiet());
+        System.out.println("Sometimes we get a bit unsteady in the air so we got these super awesome tails that help us fly around not in circles");
     }  
     
-    public void Play(){
-        System.out.println("I love to play!!!!!! WOOOOOOOOOOO!!!!");
+    public void Wind(){
+        System.out.println("Feel that light, refreshig breeze? Yeah that's us, we can change wind patterns in our environment...psh no biggie");
     }
     
-    public void Party(){
-        System.out.println("I love to PARTAYYY! *dolphin noise*");
+    public void Tornado(){
+        System.out.println("Got super chill attitudes but don't make us mad OR I WILL TORNADO YOU OUT OF THIS ZOO!! thank u, next.");
     }
     
-    public void Bowling(){
-        System.out.println("I use the 4lb ball when I go bowling!! *dolphin noise*");
-    }
-
-    /**
-     * @return the Color
-     */
-    public String getColor() {
-        return Color;
-    }
-
-    /**
-     * @param Color the Color to set
-     */
-    public void setColor(String Color) {
-        this.Color = Color;
-    }
-
-    /**
-     * @return the LivesinWater
-     */
-    public boolean isLivesinWater() {
-        return LivesinWater;
-    }
-
-    /**
-     * @return the Diet
-     */
-    public String getDiet() {
-        return Diet;
-    }
-
-    /**
-     * @param Diet the Diet to set
-     */
-    public void setDiet(String Diet) {
-        this.Diet = Diet;
-    }
-
-    /**
-     * @return the BreatheAir
-     */
-    public boolean isBreatheAir() {
-        return BreatheAir;
+    public void Flock(){
+        System.out.println("Those weird mammals and their packs pshh we travel in V-shaped flocks because every other letter shape just didn't work out...yeahh");
     }
 
     
