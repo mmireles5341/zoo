@@ -1,5 +1,7 @@
 package zoo;
 
+import java.util.Scanner;
+
 /**
  *
  * @author mmireles5341
@@ -32,7 +34,7 @@ public class Zoo {
         choice = Bob.nextInt();
         switch(choice){
             case 1: System.out.println(FireNation);
-                        CONTINUE BUT INSERT BACKWARDS OPTION
+                        //CONTINUE BUT INSERT BACKWARDS OPTION
                    break;
             case 2: System.out.println(WaterTribe);
                    break;
