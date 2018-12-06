@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package zoo;
 
 /**
@@ -10,79 +6,36 @@ package zoo;
  * @author mmireles5341
  */
 class BobMairley extends SnoopFogg {
-    private String Color;
-    private boolean LivesinWater = true;
-    private String Diet;
-    private boolean BreatheAir = true;
+    private String Hair = "Got my dreads in my hair 24/7 ya maan you know it";
+    private boolean LivesinJamaica = true;
+    private boolean Feathers = true;
     
     
     
-    public static void BreatheAir()
+    public static void Jamaica()
     {
-        System.out.println("I'm a dolphin and I breathe air!");
+        System.out.println("Ya maan I'm from Jamaica and we have a lot of fun there...I wish I could be there instead of this zoo ugh");
     }
     
-    public void Color()
+    public void Hair()
     {
-        System.out.println("MY COLOR IS " + getColor());
+        System.out.println(Hair);
     }
-    public void Diet()
+    public void Feathers()
     { 
-        System.out.println("I eat " + getDiet());
+        System.out.println("I got these super cool feathers...they actually just seem like normal feathers maybe they're not so cool wow this stinks");
     }  
     
-    public void Play(){
-        System.out.println("I love to play!!!!!! WOOOOOOOOOOO!!!!");
+    public void Fly(){
+        System.out.println("Preferred flying altitude is approximatley 420 feet above the ground AT ALL TIMES! NOT 419FT AND DEFINITELY NOT 421FT!!");
     }
     
-    public void Party(){
-        System.out.println("I love to PARTAYYY! *dolphin noise*");
+    public void Music(){
+        System.out.println("I'm the king of reggae in these parts of this zoo so naturally the KING OF REGGAE has to listen to some REGGAE before he goes to sleep don't make fun of me geez");
     }
     
-    public void Bowling(){
-        System.out.println("I use the 4lb ball when I go bowling!! *dolphin noise*");
-    }
-
-    /**
-     * @return the Color
-     */
-    public String getColor() {
-        return Color;
-    }
-
-    /**
-     * @param Color the Color to set
-     */
-    public void setColor(String Color) {
-        this.Color = Color;
-    }
-
-    /**
-     * @return the LivesinWater
-     */
-    public boolean isLivesinWater() {
-        return LivesinWater;
-    }
-
-    /**
-     * @return the Diet
-     */
-    public String getDiet() {
-        return Diet;
-    }
-
-    /**
-     * @param Diet the Diet to set
-     */
-    public void setDiet(String Diet) {
-        this.Diet = Diet;
-    }
-
-    /**
-     * @return the BreatheAir
-     */
-    public boolean isBreatheAir() {
-        return BreatheAir;
+    public void StopWind(){
+        System.out.println("First I will use my powers to STOP ALL THE WIND TO OVERHEAT MY PREY...and then I will EAT my prey!! pretty cool if you ask me maan");
     }
 
     
