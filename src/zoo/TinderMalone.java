@@ -28,12 +28,12 @@ class TinderMalone extends LaFlame {
         System.out.println("You know I'm angry when I'm spitting straight fire so stand back everybody WATCH OUT");
     }
     
-    public void Party(){
-        System.out.println("I love to PARTAYYY! *dolphin noise*");
+    public void Plays(){
+        System.out.println("I love to play with my besties!! Our favorite thing to do it look for those niceee acorns and pretend we're rockstars *wink wink*");
     }
     
-    public void Bowling(){
-        System.out.println("I use the 4lb ball when I go bowling!! *dolphin noise*");
+    public void Hunt(){
+        System.out.println("Hunting at night is way more fun than during the day so I only hunt at night. Super fun to run around and pray you don't fall of the tree or step in a hole");
     }
 
     
