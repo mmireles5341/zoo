@@ -5,79 +5,36 @@ package zoo;
  * @author mmireles5341
  */
 class KrisH2OJenner extends CaitswimJenner {
-    private String Color;
-    private boolean LivesinWater = true;
-    private String Diet;
-    private boolean BreatheAir = true;
+    private boolean Gills = true;
+    private String Hair = "I whip my (short) hair back and forth, I whip my (short) hair back and forth";
+    private boolean SevenKids = true;
     
     
     
-    public static void BreatheAir()
+    public void Hair()
     {
-        System.out.println("I'm a dolphin and I breathe air!");
+        System.out.println(Hair);
     }
     
-    public void Color()
+    public void Gills()
     {
-        System.out.println("MY COLOR IS " + getColor());
+        System.out.println("I've got gills because how else am I going to breathe under water? Magic? ");
     }
-    public void Diet()
+    public void Kids()
     { 
-        System.out.println("I eat " + getDiet());
+        System.out.println("Yeah I've got seven kids. Don't ask me their names or what they're doing, there's 7 of them you think I remember?" );
     }  
     
-    public void Play(){
-        System.out.println("I love to play!!!!!! WOOOOOOOOOOO!!!!");
+    public void Meeting(){
+        System.out.println("Can't chat for long since I have a meeting to go to every hour on the hour!! I'm a busy gal, got places to be and people to...yell at");
     }
     
-    public void Party(){
-        System.out.println("I love to PARTAYYY! *dolphin noise*");
+    public void Clothes(){
+        System.out.println("I guess you could say I'm known for my very elegant sense of style. Never wear something twice darling.");
     }
     
-    public void Bowling(){
-        System.out.println("I use the 4lb ball when I go bowling!! *dolphin noise*");
-    }
-
-    /**
-     * @return the Color
-     */
-    public String getColor() {
-        return Color;
-    }
-
-    /**
-     * @param Color the Color to set
-     */
-    public void setColor(String Color) {
-        this.Color = Color;
-    }
-
-    /**
-     * @return the LivesinWater
-     */
-    public boolean isLivesinWater() {
-        return LivesinWater;
-    }
-
-    /**
-     * @return the Diet
-     */
-    public String getDiet() {
-        return Diet;
-    }
-
-    /**
-     * @param Diet the Diet to set
-     */
-    public void setDiet(String Diet) {
-        this.Diet = Diet;
-    }
-
-    /**
-     * @return the BreatheAir
-     */
-    public boolean isBreatheAir() {
-        return BreatheAir;
+    public void Swim(){
+        System.out.println("One of daughters says she swims with attitude, well I swim with STYLE!! I rock this water with my killer outfits...get your cameras ready!!");
     }
 
     
