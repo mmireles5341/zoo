@@ -33,15 +33,6 @@ public class Zoo {
                 + "\n1: Bob Mairley"
                 + "\n2: Wiz Khaflya"
                 + "\n3: Waka Flocka Flame";
-        String FieryYe = "";
-        String TinderMalone = "";
-        String QuaBlaze = "";
-        String KimKarspalshian = "";
-        String KloceanKardashian = "";
-        String KrisH20 = "";
-        String BobMairley = "";
-        String WizKhaflya = "";
-        String WakaFlockFlame = "";
         System.out.println(SectionChoice);
         choice = Bob.nextInt();
         switch(choice){
