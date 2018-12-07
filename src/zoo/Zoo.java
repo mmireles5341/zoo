@@ -19,23 +19,17 @@ public class Zoo {
                 + "\n2: Water Tribe"
                 + "\n3: Air Nomads";
         String FireNation = "Welcome to the Super class La Flame!\n" 
-                + "\nTheir behaviors consist of: "
-                + "\nTheir attributes consist of: "
-                + "\nWhat would you like to see next?"
+        String FireNation2 = "\nWhat would you like to see next?"
                 + "\n1: Fiery Ye"
                 + "\n2: Tinder Malone"
                 + "\n3: Quablaze";
         String WaterTribe = "Welcome to the Super class Caitswim Jenner !\n"
-                +"\nTheir behaviors consist of:"
-                +"\nTheir attributes consist of:"
-                +"\nWhat would you like to see next?"
+        String WaterTribe2 = "\nWhat would you like to see next?"
                 + "\n1: Kim Karsplashian"
                 + "\n2: Klocean Kardashian"
                 + "\n3: Kris H20 Jenner";
         String AirNomads = "Welcome to the Super class of Snoop Fogg!\n" 
-                 +"\nTheir behaviors consist of:"
-                 +"\nTheir attributes consist of:"
-                +"\nWhat would you like to see next?"
+         String AirNomads2 = "\nWhat would you like to see next?"
                 + "\n1: Bob Mairley"
                 + "\n2: Wiz Khaflya"
                 + "\n3: Waka Flocka Flame";
@@ -52,10 +46,14 @@ public class Zoo {
         choice = Bob.nextInt();
         switch(choice){
             case 1: System.out.println(FireNation);
-//<<<<<<< HEAD
-                        //CONTINUE BUT INSERT BACKWARDS OPTION
-//=======
-                    choice = Bob.nextInt();
+                    LaFlame.Carnivore();
+                     LaFlame.Color();
+                     LaFlame.EyeColor();
+                     LaFlame.Burn();
+                     LaFlame.Attack();
+                     LaFlame.ThermalImaging();
+                System.out.println(FireNation2);
+         choice = Bob.nextInt();
                     switch(choice){
                         case 1: FieryYe.HotHead();
                                 FieryYe.EyeColor();
@@ -81,6 +79,13 @@ public class Zoo {
 //>>>>>>> origin/master
                    break;
             case 2: System.out.println(WaterTribe);
+                 CaitswimJenner.BreatheInWater();
+                      CaitswimJenner.RepellentSkin();
+                      CaitswimJenner.EyeColor();
+                      CaitswimJenner.Hurricanes();
+                      CaitswimJenner.Dehydrate();
+                      CaitswimJenner.WaterTemp();
+                System.out.println(WaterTribe2);
                     choice = Bob.nextInt();
                     switch(choice){
                         case 1: KimKarsplashian.Respected();
@@ -106,6 +111,13 @@ public class Zoo {
                     }
                    break;
             case 3: System.out.println(AirNomads);
+                 SnoopFogg.Flock();
+                      SnoopFogg.Fly();
+                      SnoopFogg.EyeColor();
+                      SnoopFogg.Tails();
+                      SnoopFogg.Wind();
+                      SnoopFogg.Tornado();
+                System.out.println(AirNomads2);
                      choice = Bob.nextInt();
                      switch(choice){
                         case 1: BobMairley.Jamaica();
@@ -115,12 +127,12 @@ public class Zoo {
                                 BobMairley.Music();
                                 BobMairley.StopWind();
                             
-                        case 2: WizKhaflya.BreathAir();
-                                 WizKhaflya.Color();
-                                 WizKhaflya.Diet();
-                                 WizKhaflya.Play();
-                                 WizKhaflya.Party();
-                                 WizKhaflya.Bowling();
+                        case 2: WizKhaflya.Hopeless();
+                                 WizKhaflya.Herbivore();
+                                 WizKhaflya.HighestFlier();
+                                 WizKhaflya.Sunglasses();
+                                 WizKhaflya.Roses();
+                                 WizKhaflya.Chains();
                             
                         case 3: WakaFlockaFlame.Friend();
                                 WakaFlockaFlame.RedFeathers();
